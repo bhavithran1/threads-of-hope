@@ -3,7 +3,7 @@ import Lenis from 'lenis'
 import Starfield from './components/Starfield.jsx'
 import Hero from './components/Hero.jsx'
 import Constellation from './components/Constellation.jsx'
-import VoiceStream from './components/VoiceStream.jsx'
+import SpaceExplorer from './components/SpaceExplorer.jsx'
 import Stats from './components/Stats.jsx'
 import ShareThread from './components/ShareThread.jsx'
 import { Nav, ScrollProgress, Footer, Marquee } from './components/Chrome.jsx'
@@ -34,7 +34,7 @@ export default function App() {
         <Constellation />
         <Marquee />
         <Stats liveCount={liveCount} />
-        <VoiceStream />
+        <SpaceExplorer />
         <ShareThread onAdd={() => setLiveCount((c) => c + 1)} />
       </main>
       <Footer />
